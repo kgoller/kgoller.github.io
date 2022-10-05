@@ -6,65 +6,66 @@ img {
 	display: block;
 }
 body {
-	background-color: 255, 255, 200; /* Not totally white. */
-	color: 10, 10, 10;  /* Not totally black. */
+	background-color: rgb(245, 245, 245); /* Not totally white. */
+	color: rgb(10, 10, 10);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
-	font-family: arial;
+	font-family: sans-serif;
 }
 
 h1 {
-	background-color: _______;
-	color: _______; /* Same as body background. */
-	font-size: _______;
-	padding: ____ ____ ____; /* You want three values. */
-	font-weight: _______;
-	text-transform: _______;
+	background-color: rgb(152, 153, 169);
+	color: rgb(245, 245, 245); /* Same as body background. */
+	font-size: 1.8em;
+	padding: 1.5em 0.8em 0.5em; /* You want three values. */
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
-	font-family: _______;
-	font-style: _______;
-	font-weight: _______;
-	text-transform: _______;
+	font-family: serif;
+	font-style: italic;
+	font-weight: light;
+	text-transform: lowercase;
 }
 
 h2 {
-	background-color: _______;
-	color: _______;
-	font-size: _______;
-	padding: _______;
-	font-family: _______;
-	font-weight: _______;
+	background-color: rgb(152, 153, 169);
+	color: rgb(245, 245, 245);
+	font-size: 1.2em;
+	padding: 0em 1.2em 0.5em;
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
 h3 {
-	margin: ____ ____ ____; /*Three values again. You got the idea.*/
-	padding-top: _______;
-	font-size: _______;
-	color: _______;
-	font-weight: _______;
-	text-transform: _______;
-	letter-spacing: ____; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: ____ ____ ____;
+	margin: 3em 1.4em 1em; /*Three values again. You got the idea.*/
+	padding-top: 0.6em;
+	font-size: 1.2em;
+	color: rgb(186, 33, 33);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 0.2em solid rgb(186, 33, 33);
 }
 
 h4 {
-	font-weight: _______;
+	font-weight: bold;
 }
 
 p.description {
-	font-style: _______;
+	font-style: italic;
 }
 
 p.price {
-	color: _______;
+	color: rgb(187, 34, 32);
 }
 
 ul {
-	margin: ____ ____ ____;
+	margin: 0em 1.7em 1em;
+    list-style-type: none;
 }
 
 li { 
-	margin: ____ ____;
+	margin: 1em 0em;
 }
