@@ -20,9 +20,6 @@ nav ul li {
 div.container {
     max-width: 80em;
     margin: auto;
-    display: grid;
-    grid-template-columns: 3fr, 3fr, 3fr, 3fr;
-    grid-template-rows: 5em, auto, 3em, 2em;
 }
 
 header {
