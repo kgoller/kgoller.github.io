@@ -1,0 +1,98 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+max-width: 80%; 
+display: block; 
+justify-content: center; 
+align-items: center;
+margin: 1em 1.7em 1em;
+}
+h1, h2, h3, h4 {
+color: rgb(65, 64, 64);
+font-family: poppins, sans-serif;  
+font-weight: 400;  
+font-style: normal;
+}
+nav ul {
+padding: 0;
+}
+nav ul li {
+display: inline;
+list-style-type: none;
+margin-right: 1em;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 1.4em;
+text-transform: uppercase;
+}
+nav ul li a {
+color: rgb(65, 64, 64);
+text-decoration: none;
+}
+nav ul li a:hover {
+color: rgb(204, 204, 204);
+}
+div.container {
+max-width: 80em;
+margin: auto;
+}
+header {
+grid-column: 1/2;
+grid-row: 1/2;
+}
+body {
+background-color: #fafafa; /* Not totally white. */
+color: #1e1e1e;  /* Not totally black. */
+line-height: 140%; 	/* A little extra leading. */
+font-family: poppins, sans-serif;
+}
+h2 {
+background-color: #fafafa;
+color: #1e1e1e;
+font-size: 1.2em;
+padding: 0em 1.2em 0.5em;
+font-family: Sutro, serif;  
+font-weight: 300;  
+font-style: italic;
+}
+h3 {
+margin: 3em 1.4em 1em; /*Three values again. You got the idea.*/
+padding-top: 0.6em;
+font-size: 1.2em;
+color: #2321ba;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+border-top: 0.2em solid #2321ba;
+}
+h4 {
+font-weight: bold;
+}
+p, address {
+background-color: #fafafa; 
+color: #1e1e1e;
+line-height: 140%;
+font-family: poppins, sans-serif;
+margin: 0.2em 1.7em 1em;
+}
+p.description {
+font-style: italic;
+}
+p.price {
+color: #2321ba;
+}
+ul {
+margin: 0em 1.7em 1em;
+list-style-type: none;
+}
+li { 
+margin: 1em 0em;
+}
+figcaption {
+grid-column: 2/3;
+font-size: 1em;
+padding: 1rem 2rem 2rem;
+font-family: poppins, sans-serif;  
+font-weight: 400;  
+font-style: italic;
+}
