@@ -1,0 +1,89 @@
+/*CSS document*/
+
+p {
+    background-color: #fafafa; 
+	color: #1e1e1e;
+	line-height: 140%;
+	font-family: poppins, sans-serif;
+    margin: 0.5em 0em 0em;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(65, 64, 64);
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa; 
+	color: #1e1e1e; 
+	line-height: 140%; 
+	font-family: poppins, sans-serif;
+}
+
+div.container {
+    max-width: 30em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-transform: lowercase;
+}
+
+nav ul li a {
+    color: rgb(65, 64, 64);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(204, 204, 204);
+}
+
+img {
+    max-width: 50%; 
+    display: block; 
+    justify-content: center; 
+    align-items: center;
+    margin: 1em 1em 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+h2 {
+	margin: auto; /*Three values again. You got the idea.*/
+	padding-top: 0.6em;
+	font-size: 1.6em;
+	color: #F18D4A;
+	font-weight: bold;
+	letter-spacing: 0.1;
+}
+
+h3 {
+	margin: auto; /*Three values again. You got the idea.*/
+	padding-top: 0.6em;
+	font-size: 1.4em;
+	color: #EF9772;
+	font-weight: bold;
+	letter-spacing: 0.1;
+}
