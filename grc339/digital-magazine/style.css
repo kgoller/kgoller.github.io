@@ -113,21 +113,31 @@ section {
     } 
 }
 
-section.gallery {
+
+
+div.gallery_container {
+    max-width: 50em;
+    margin: auto;
+}
+
+div.gallery_container main {
     position: relative;
-    min-height: 25em;
-    overflow: hidden;
+    padding-bottom: calc(90% + 3rem);
+    overflow: none;
+    
 }
 
-main.gallery figure {
-    width: calc(100%-2em);
-    position: absolute;
+figure.gallery {
     opacity: 0;
-    left: 100%;
-    transition: left 1s;
-     
+    position: absolute;
+    width: calc(100%-2rem);
+    transition: opacity 0.5s;
 }
 
+
+input {
+    display: none;
+}
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
 input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
@@ -137,22 +147,16 @@ input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
 input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
-    left: 0;
     opacity: 1;
 }
 
-nav.gallery {
-    display: flex;
-    flex-wrap: wrap;
-}
-label.gallery {
-    flex: 1 0 10em;
+nav.gallery_nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .2em;
+    margin: 3em 0;
 }
 
-
-input.gallery {
-    display: none;
-}
 
 
 
